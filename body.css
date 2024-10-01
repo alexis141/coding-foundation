@@ -1,0 +1,86 @@
+.features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(61,67,71,1);
+    background: -moz-linear-gradient(-45deg, rgba(61,67,71,1) 0%, rgba(61,67,71,1) 21%, rgba(28,28,28,1) 64%, rgba(26,26,26,1) 73%, rgba(26,26,26,1) 100%);
+    background: -webkit-gradient (left top, right bottom, color-stop(0%, rgba(61,67,71,1)), color-stop(21%, rgba(61,67,71,1)), color-stop(64%, rgba(28,28,28,1)), color-stop(73%, rgba(26,26,26,1)), color-stop(100%, rgba(26,26,26,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(61,67,71,1) 0%, rgba(61,67,71,1) 21%, rgba(28,28,28,1) 64%, rgba(26,26,26,1) 73%, rgba(26,26,26,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(61,67,71,1) 0%, rgba(61,67,71,1) 21%, rgba(28,28,28,1) 64%, rgba(26,26,26,1) 73%, rgba(26,26,26,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(61,67,71,1) 0%, rgba(61,67,71,1) 21%, rgba(28,28,28,1) 64%, rgba(26,26,26,1) 73%, rgba(26,26,26,1) 100%);
+    background: linear-gradient(135deg, rgba(61,67,71,1) 0%, rgba(61,67,71,1) 21%, rgba(28,28,28,1) 64%, rgba(26,26,26,1) 73%, rgba(26,26,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d4347', endColorstr='#1a1a1a', GradientType=1 );
+    }
+
+.features-section > .columns-wrapper {
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    text-align: left;
+}
+
+.column.left {
+    display: grid;
+    align-content: space-around;
+}
+
+.column.left > .top.para {
+    color: white;
+    font-size: 50px;
+    font-weight: 250;
+}
+
+.column.left > .bottom.para {
+    color: #a2a8a8;
+    font-size: 32px;
+}
+
+.top.para img {
+    width: 45px;
+}
+
+.column.left > .free {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.column.left > .free > .sign-up button {
+    background-color: #2de361;
+    color: black;
+    border-radius: 5px;
+}
+
+.column.left > .free > .learn-more button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.column.right {
+    margin: 42px 0px 42px 42px;
+}
+
+.column.right {
+    color: white;
+}
+
+.CodePen {
+    color: #37bfed;
+}
+
+.column.right img {
+    -webkit-box-shadow: -15px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -15px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -15px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.column.left {
+    margin: 42px;
+}
+.social-develop {
+    font-weight: bold;
+}

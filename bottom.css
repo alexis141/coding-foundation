@@ -1,0 +1,22 @@
+/* footer */
+.closing-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3e4142;
+    color: white;
+}
+
+.closing-wrapper > .closing {
+    flex: 1 1 0px;
+    border: solid white 2px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.for {
+    font-weight: bold;
+    font-size: 150%;
+}
+
